@@ -2,6 +2,7 @@
   "domain": "codex_conversation",
   "name": "OpenAI Codex Conversation",
   "codeowners": [
+    "@DeadPixel99",
     "@petretiandrea"
   ],
   "config_flow": true,
@@ -10,9 +11,11 @@
     "auth",
     "conversation"
   ],
-  "documentation": "https://github.com/petretiandrea/hass-codex-conversation",
+  "documentation": "https://github.com/DeadPixel99/hass-codex-conversation",
+  "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/petretiandrea/hass-codex-conversation/issues",
+  "issue_tracker": "https://github.com/DeadPixel99/hass-codex-conversation/issues",
   "requirements": [],
+  "single_config_entry": true,
   "version": "1.1.0"
 }

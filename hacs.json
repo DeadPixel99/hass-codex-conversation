@@ -1,6 +1,4 @@
 {
-  "name": "Codex Conversation",
-  "hacs": "0.0.1",
-  "render_readme": true,
+  "name": "OpenAI Codex Conversation",
   "homeassistant": "2026.3.0"
 }

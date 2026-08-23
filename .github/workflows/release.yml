@@ -40,7 +40,7 @@ jobs:
           enable-cache: true
 
       - name: Set up Python
-        run: uv python install 3.13
+        run: uv python install 3.14
 
       - name: Install python-semantic-release
         run: uv tool install python-semantic-release==10.5.3

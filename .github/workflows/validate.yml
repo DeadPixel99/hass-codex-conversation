@@ -2,6 +2,11 @@ name: Validate
 
 on:
   workflow_call:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions: {}
 
 jobs:
   hassfest:
@@ -22,4 +27,3 @@ jobs:
         uses: hacs/action@main
         with:
           category: integration
-          ignore: brands

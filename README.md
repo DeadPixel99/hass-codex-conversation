@@ -23,17 +23,22 @@ This integration reuses the same authenticated Codex backend flow and exposes it
 
 | Requirement | Details |
 | --- | --- |
-| Home Assistant | 2026.2.0 or newer |
+| Home Assistant | 2026.3.0 or newer |
 | Subscription | ChatGPT Plus or Pro |
 
 ## Installation
 
 ### HACS
 
+[![Open your Home Assistant instance and add this repository to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DeadPixel99&repository=hass-codex-conversation&category=integration)
+
+Or add it manually:
+
 1. Open HACS and go to **Integrations**.
 2. Open the menu and choose **Custom repositories**.
-3. Add your repository URL as an **Integration** repository.
-4. Search for **OpenAI Codex Conversation** and install it.
+3. Add `https://github.com/DeadPixel99/hass-codex-conversation` as an
+   **Integration** repository.
+4. Search for **OpenAI Codex Conversation** and install the latest release.
 5. Restart Home Assistant.
 
 ### Manual
@@ -143,6 +148,13 @@ This starts Home Assistant using `config/configuration.yaml`.
 - `Validate` includes both `hassfest` and HACS validation.
 - Pre-commit now uses Ruff, codespell, JSON/YAML checks, and Prettier for repository files.
 - Dependabot is configured for GitHub Actions and Python dependencies.
+
+## Support
+
+- Report bugs through the [issue tracker](https://github.com/DeadPixel99/hass-codex-conversation/issues).
+- Review installable versions on the [releases page](https://github.com/DeadPixel99/hass-codex-conversation/releases).
+- HACS installs stable GitHub releases; the default branch is also available
+  from HACS's version selector for testing.
 
 ## Disclaimer
 
