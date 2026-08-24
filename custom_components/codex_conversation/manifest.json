@@ -17,5 +17,5 @@
   "issue_tracker": "https://github.com/DeadPixel99/hass-codex-conversation/issues",
   "requirements": [],
   "single_config_entry": true,
-  "version": "1.1.0"
+  "version": "1.1.2"
 }
