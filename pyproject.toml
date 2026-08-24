@@ -44,9 +44,9 @@ combine-as-imports = true
 
 [tool.semantic_release]
 version_toml = ["pyproject.toml:project.version"]
+version_variables = ["custom_components/codex_conversation/manifest.json:version"]
 tag_format = "v{version}"
 commit_message = "chore(release): {version} [skip ci]"
-build_command = "python script/sync_version.py"
 
 [tool.semantic_release.branches.main]
 match = "main"
