@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.3 (2026-09-23)
+
+### Bug Fixes
+
+- Declare voluptuous-openapi runtime dependency
+  ([`489baa0`](https://github.com/DeadPixel99/hass-codex-conversation/commit/489baa05c0c47c1e7e244a513cdffba5a7d8968b))
+
+
 ## v1.1.2 (2026-08-24)
 
 ### Bug Fixes
